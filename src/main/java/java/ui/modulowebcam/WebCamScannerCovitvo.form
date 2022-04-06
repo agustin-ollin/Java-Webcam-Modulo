@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="name" type="java.lang.String" value="frame" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="camera" min="-2" pref="479" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="panelHorizontal" pref="323" max="32767" attributes="0"/>
+              </Group>
+              <Component id="info" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="camera" min="-2" pref="331" max="-2" attributes="0"/>
+                      <Component id="panelHorizontal" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="info" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="camera">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="1"/>
+            <Property name="rows" type="int" value="1"/>
+          </Layout>
+        </Container>
+        <Container class="javax.swing.JPanel" name="info">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel2" pref="93" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="riesgo" min="-2" pref="134" max="-2" attributes="0"/>
+                              <EmptySpace pref="648" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Component id="riesgo" alignment="1" pref="36" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="riesgo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="RESULTADO DE ENCUESTA:"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="panelDatos">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                      <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="0" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="50" anchor="17" weightX="0.5" weightY="0.0"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                    <Property name="columns" type="int" value="1"/>
+                    <Property name="rows" type="int" value="6"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="ultimaEncuesta">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xda;LTIMA ENCUESTA:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="correo">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CORREO:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="nombreCompleto">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="NOMBRE COMPLETO:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="telefono">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="TEL&#xc9;FONO:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="tipoUsuario">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="TIPO DE USUARIO:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="especialidad">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="ESPECIALIDAD:"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="panelRespuestas">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                      <GridBagConstraints gridX="1" gridY="0" gridWidth="1" gridHeight="1" fill="0" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="50" insetsBottom="10" insetsRight="10" anchor="13" weightX="0.5" weightY="0.0"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                    <Property name="columns" type="int" value="2"/>
+                    <Property name="rows" type="int" value="6"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="respuesta1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 1?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 2?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 3?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 4?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 5?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 6?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 7?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 8?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 9?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 10?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="respuesta11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xbf;PREGUNTA 11?"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelHorizontal">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="1"/>
+            <Property name="rows" type="int" value="6"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="logo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="titulo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="M&#xd3;DULO DE REGISTRO ENTRADA/SALIDA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="covitvo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="COVITVO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="reloj">
+            </Component>
+            <Component class="javax.swing.JLabel" name="esperando">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ESPERANDO C&#xd3;DIGO QR ..."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="imagenEscaneoLabel">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

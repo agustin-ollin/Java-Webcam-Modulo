@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>itvo-java-webcam-modulo-NB</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <repositories>
+        <repository>
+            <id>unknown-jars-temp-repo</id>
+            <name>A temporary repository created by NetBeans for libraries and jars it could not identify. Please replace the dependencies in this repository with correct ones and delete this repository.</name>
+            <url>file:${project.basedir}/lib</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>unknown.binary</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>SNAPSHOT</version>
+        </dependency>
+
+	<!-- Agregadas Inicio -->
+	<dependency>
+   	    <groupId>org.openimaj</groupId>
+            <artifactId>core-video-capture</artifactId>
+    	    <version>1.3.10</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.google.zxing</groupId>
+    	    <artifactId>core</artifactId>
+            <version>3.4.1</version>
+	</dependency>
+	<dependency>
+    	    <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib</artifactId>
+            <version>1.6.20</version>
+	</dependency>
+	<dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>8.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-coroutines-jdk8</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-imaging</artifactId>
+            <version>1.0-alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openimaj</groupId>
+            <artifactId>image-processing</artifactId>
+            <version>1.3.10</version>
+		<exclusions>
+        		<exclusion>
+          			<groupId>org.openimaj</groupId> 
+			        <artifactId>com.github.fommil.netlib</artifactId>
+		        </exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>net.sf.saxon</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.apache.xmlgraphics</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.apache.ant</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.apache.axis</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.apache.commons</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.apache.httpcomponents</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.hamcrest</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>colt</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.esotericsoftware.kryo</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.caffeineowl</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.thoughtworks.xstream</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.sun.media</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>commons-codec</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>commons-io</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>commons-lang</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>commons-logging</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>commons-logging</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>javax.media</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>net.jafama</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>net.sourceforge.jeuclid</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>net.sourceforge.jmatio</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.google.android.tools</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.googlecode.json-simple</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.googlecode.matrix-toolkits-java</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>jgrapht</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.jsoup</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>uk.com.robust-it</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>gov.sandia.xmlgraphics</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>gov.sandia.foundry</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>gov.nist.math</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.twelvemonkeys.imageio</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.twelvemonkeys.common</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>com.google.guava</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>net.sf.trove4j</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>xpp3</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>xmlpull</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.scribe</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.ow2.asm</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.ow2.asm</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.objenesis</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>vigna.dsi.unimi.it</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.opentest4j</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>uk.ac.ed.ph.snuggletex</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.openimaj.content</artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId></artifactId>
+</exclusion>
+<exclusion>
+	<groupId>org.openimaj</groupId> 
+	<artifactId>org.openimaj</artifactId>
+       
+	<!-- <modules> 
+		<module>content</module>
+		<module>core-aop-support</module>
+		<module>MatrixLib</module>
+		<module>core-audio</module>
+		<module>core-citation</module>
+	</modules> -->
+</exclusion>
+
+
+
+	        </exclusions>
+        </dependency>
+
+                <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>13</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.sociaal</groupId>
+            <artifactId>freetts</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.goxr3plus</groupId>
+            <artifactId>java-stream-player</artifactId>
+            <version>9.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+
+	<!-- Fin -->
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+</project>
